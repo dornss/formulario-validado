@@ -1,0 +1,102 @@
+body {
+    padding-top: 60px;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+h1 {
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px black;
+}
+
+form, .alert{
+    margin-bottom: 0;
+}
+
+
+.card {
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+
+iframe {
+    width: 100%;
+    height: 440px;
+}
+
+textarea.form-control {
+    height: 90px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+}
+
+textarea.form-control:focus{    
+    color: white;
+    background-color: transparent;
+    outline: none !important;
+}
+
+textarea.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+input.form-control {
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+}
+
+input.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+input.form-control:focus{
+    color: white;
+    background-color: transparent;
+    outline: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill{
+    -webkit-text-fill-color: white !important;
+}
+
+label.form-label{
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+}
+
+#emailHelp {
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.alert{
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+    .col-6{
+        width: 100%;
+    }
+}
